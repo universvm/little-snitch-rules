@@ -1,0 +1,11 @@
+{
+  "name": "Block adware and malware",
+  "description": "Little snitch rules to block adware and malware websites. Host lists from Steven Black.",
+  "rules": [
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "localhost"
+    }
+  ]
+}
